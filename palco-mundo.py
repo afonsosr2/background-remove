@@ -17,7 +17,6 @@ for fid in framesIds:
     frames.append(frame)
     
 
-
 medianFrame = np.median(frames, axis=0).astype(dtype=np.uint8)
 #print(medianFrame)
 cv2.imshow('Frame 1', frames[1])
